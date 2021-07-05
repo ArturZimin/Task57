@@ -1,16 +1,14 @@
 package by.minsk.itakademy.arturzimin;
 
-import java.util.ArrayDeque;
-import java.util.Queue;
-import java.util.Random;
+import java.util.*;
 
 public class Main {
 
-    public  static Queue <Integer>queue=new ArrayDeque<>(200);
+    public  static Queue <Integer>queue=new LinkedList<>();
 
     public static void main(String[] args) {
-       /** Queue <Integer>queue=new ArrayDeque<>(200);
-        Random random=new Random();
+
+       /** Random random=new Random();
         for (int i=1;i<150;i++){
             queue.add(random.nextInt(50));
         }*/
